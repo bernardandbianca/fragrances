@@ -19,6 +19,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
+	font-family: Bebas Neue, sans-serif;
 	background-color: #FFFFFF;
 }
 
