@@ -13,7 +13,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-    <title>Bootstrap Base Template | Corporate Information</title>
+    <title>Bernard and Bianca Fragrances - Contact Us</title>
   </head>
   <body>
 
@@ -32,7 +32,7 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
 			   <li class="nav-item">
-              <a class="nav-link" href="page2.html">Our Story</a>
+              <a class="nav-link" href="page2.html">B&B House</a>
             </li>
 			   <li class="nav-item">
               <a class="nav-link" href="products.html">The Fragrance</a>
@@ -53,24 +53,21 @@
       <h1 class="fw-light">Contact Us</h1>
     </header>
 
-<div class="wrapper">
-		<div class="contact__container">
-				<div class="contact__title">
+<div class="container">
+  <form action="action_page.php">
 
-				</div>
-				<form class="contact__form">
-						<p>Name</p>
-						<input class="contact__form-input" type="text">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-						<p>Email</p>
-						<input class="contact__form-input" type="text">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-						<p>Message</p>
-						<textarea class="contact__form-textarea" type="text"></textarea>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-						<input type="submit" value="Send message">
-				</form>
-		</div>
+    <input type="submit" value="Submit">
+
+  </form>
 </div>
 
     <!-- A footer with socials -->
