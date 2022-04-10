@@ -63,7 +63,25 @@
     </header>
     <!-- End of hero section -->
 
-    <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
+  
+
+    <!-- A grid with cards
+      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
+      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
+    -->
+   <center>
+	   <main class="container py-4">
+      <div class="row g-3 justify-content-evenly">
+		  <li class="m-2">
+          <a href="#"><!-- Please make a link to your socials instead -->
+            <img src="Graphic Assets/multiplebottles.jpg" alt="Image Placeholder" width="100%" class="img-thumbnail">
+          </a>
+        </li>
+      </div>
+    </main>
+	   </center>
+    <!-- End of the grid with cards -->
+	    <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
     <section class="container-fluid p-0">
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -108,23 +126,19 @@
       </div>
     </section>
     <!-- End of carrousel -->
-
-    <!-- A grid with cards
-      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
-      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
-    -->
-   <center>
-	   <main class="container py-4">
-      <div class="row g-3 justify-content-evenly">
-		  <li class="m-2">
-          <a href="#"><!-- Please make a link to your socials instead -->
-            <img src="Graphic Assets/multiplebottles.jpg" alt="Image Placeholder" width="100%" class="img-thumbnail">
-          </a>
-        </li>
-      </div>
-    </main>
-	   </center>
-    <!-- End of the grid with cards -->
+	  
+	   <section class="my-3 aside-section">
+            <h3>Customer Service</h3>
+            <ul class="skill-list list-unstyled">
+				 <a href="contact.html" class="btn btn-outline-dark my-md-2">Contact <span class="d-inline d-md-none"> </span></a>
+            </ul>
+          </section>
+	   <section class="my-3 aside-section">
+            <h3>Newsletter</h3>
+            <ul class="skill-list list-unstyled">
+				 <a href="cart.html" class="btn btn-outline-dark my-md-2">Sign Up here <span class="d-inline d-md-none"> </span></a>
+            </ul>
+          </section>
 	  
     <!-- A footer with socials -->
     <footer class="shadow-lg mt-5 py-4 bg-body">
@@ -143,6 +157,7 @@
       </div>
     </footer>
     <!-- End of the grid -->
+	  
 
   </body>
 </html>
