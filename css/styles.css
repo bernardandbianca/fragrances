@@ -12,7 +12,7 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	font-family: Bebas Neue, sans-serif;
+	font-family: 'Cormorant Garamond', serif;
 	background-color: #29656C;
 }
 
@@ -21,6 +21,7 @@ header {
 .navbar {
 	font-family: 'Cormorant Garamond', serif;
 	background-color: #FFFFFF;
+	font-size: medium;
 }
 
 /* Effect on social media buttons */
