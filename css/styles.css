@@ -1,6 +1,6 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
 /* Changing the main font and background colour */
 
@@ -19,7 +19,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	font-family: Bebas Neue, sans-serif;
+	font-family: Cormorant Garamond, sans-serif;
 	background-color: #FFFFFF;
 }
 
